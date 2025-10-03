@@ -40,3 +40,20 @@ SustainIQ is a full-stack climate and sustainability dashboard that aggregates r
 ---
 
 ## 📂 Project Structure
+sustainiq/
+│── frontend/ # Next.js frontend (UI, charts, maps)
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Next.js pages (dashboard, profile, insights)
+│ ├── hooks/ # Custom React hooks (data fetching, auth, etc.)
+│ └── styles/ # TailwindCSS configurations
+
+│── backend/ # Node.js/Express backend
+│ ├── routes/ # API endpoints
+│ ├── services/ # External API services (OpenWeather, NASA, Carbon Interface)
+│ ├── models/ # Database schemas
+│ └── middleware/ # Auth, caching, logging
+
+│── db/ # Database migrations and seed files
+│── docs/ # Documentation and design files
+│── README.md # Project overview
+│── package.json # Dependencies and scripts
